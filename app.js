@@ -39,7 +39,19 @@ const business = {
   lat: -6.78083,
   lng: 108.46861,
   areas: ["Kedawung", "Kesambi", "Harjamukti", "Weru", "Plumbon", "Sumber"],
-  services: ["Body Repair", "Cat Mobil", "Detailing", "Ceramic Coating"],
+  services: [
+    "Body Repair",
+    "Cat Mobil",
+    "General Repair",
+    "Overhaul Engine",
+    "Servis Berkala",
+    "Servis AC Mobil",
+    "Flushing Radiator",
+    "Spooring & Balancing",
+    "Tune Up Mesin",
+    "Detailing",
+    "Ceramic Coating"
+  ],
 };
 
 /* ---------- image sources (kept for transparency — see brief §41) ----------
@@ -54,6 +66,12 @@ const IMAGE_SOURCES = {
   svcPaint: { src: "https://images.unsplash.com/photo-1746079074370-f03467da3394?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/i-SLbh6yvw4", alt: "Teknisi mengerjakan pengecatan bodi mobil" },
   svcDetail: { src: "https://images.unsplash.com/photo-1746079074371-e28f14c76e37?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/bNxnLSf4VMc", alt: "Teknisi memoles cat bodi mobil klasik" },
   svcCoating: { src: "https://images.unsplash.com/photo-1746079074688-cc0811662ab4?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/hm1K_Sc__tA", alt: "Mobil dengan hasil akhir mengilap setelah coating" },
+  svcOverhaul: { src: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/L5L2sF2o5s4", alt: "Overhaul mesin mobil" },
+  svcService: { src: "https://images.unsplash.com/photo-1632731557005-2d7c5b62b102?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/V8vA8O6y8b8", alt: "Ganti oli dan servis berkala" },
+  svcAC: { src: "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/kO8zG9N5aYg", alt: "Servis AC mobil" },
+  svcRadiator: { src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/U9_Uv8D4UxE", alt: "Flushing radiator mobil" },
+  svcSpooring: { src: "https://images.unsplash.com/photo-1621259501511-b0db04b9cefb?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/Z4R2Q6Y9HjM", alt: "Mesin spooring balancing 3D" },
+  svcTuneup: { src: "https://images.unsplash.com/photo-1503376710356-7872652b3634?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/1l2eM8H4QoI", alt: "Tune up mesin mobil" },
   about: { src: "img-3.png", source: "img-3.png", alt: "Area kasir dan etalase sparepart Bengkel Mobil Yeyen Auto" },
 };
 
@@ -101,6 +119,12 @@ const WA_MESSAGES = {
   paint: "Halo, saya ingin konsultasi mengenai cat mobil saya.",
   detailing: "Halo, saya ingin konsultasi mengenai detailing mobil saya.",
   coating: "Halo, saya ingin bertanya mengenai ceramic coating untuk mobil saya.",
+  overhaul: "Halo, saya ingin konsultasi mengenai overhaul engine mobil saya.",
+  service: "Halo, saya ingin konsultasi mengenai servis berkala / ganti oli mobil saya.",
+  ac: "Halo, saya ingin konsultasi mengenai servis AC mobil saya.",
+  radiator: "Halo, saya ingin konsultasi mengenai servis / flushing radiator mobil saya.",
+  spooring: "Halo, saya ingin konsultasi mengenai spooring dan balancing ban mobil saya.",
+  tuneup: "Halo, saya ingin konsultasi mengenai tune up mesin mobil saya.",
   photo: "Halo, saya ingin kirim foto kondisi mobil saya untuk dicek dulu.",
   booking: "Halo, saya ingin membuat janji untuk datang ke bengkel.",
 };
