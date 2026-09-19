@@ -59,7 +59,7 @@ const business = {
    Unsplash License — free for commercial use, no attribution required).
    Source pages kept here for traceability when swapping images later.   */
 const IMAGE_SOURCES = {
-  hero: { src: "img-1.png", source: "img-1.png", alt: "Teknisi mengerjakan bodi mobil di bengkel" },
+  hero: { src: "img-1.avif", source: "img-1.png", alt: "Teknisi mengerjakan bodi mobil di bengkel" },
   bodyBefore: { src: "https://images.unsplash.com/photo-1786489785858-b64715400a37?auto=format&fit=crop&w=1000&q=80", source: "https://unsplash.com/photos/CNciVh_m1rU", alt: "Panel belakang mobil abu-abu sedang diamplas sebelum dempul" },
   bodyAfter: { src: "https://images.unsplash.com/photo-1708805282706-f44730b7e527?auto=format&fit=crop&w=1000&q=80", source: "https://unsplash.com/photos/CsZjHjFN3N8", alt: "Mobil dengan cat mengilap setelah proses finishing" },
   svcBody: { src: "https://images.unsplash.com/photo-1786489785778-a163f38b7c87?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/Udv7OHeMLCk", alt: "Teknisi mengamplas bumper belakang mobil di bengkel" },
@@ -72,7 +72,7 @@ const IMAGE_SOURCES = {
   svcRadiator: { src: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/U9_Uv8D4UxE", alt: "Flushing radiator mobil" },
   svcSpooring: { src: "https://images.unsplash.com/photo-1621259501511-b0db04b9cefb?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/Z4R2Q6Y9HjM", alt: "Mesin spooring balancing 3D" },
   svcTuneup: { src: "https://images.unsplash.com/photo-1503376710356-7872652b3634?auto=format&fit=crop&w=900&q=80", source: "https://unsplash.com/photos/1l2eM8H4QoI", alt: "Tune up mesin mobil" },
-  about: { src: "img-3.png", source: "img-3.png", alt: "Area kasir dan etalase sparepart Bengkel Mobil Yeyen Auto" },
+  about: { src: "img-3.avif", source: "img-3.png", alt: "Area kasir dan etalase sparepart Bengkel Mobil Yeyen Auto" },
 };
 
 /* ---------- minimal technical icon set (UI icons only — not content imagery) ---------- */
