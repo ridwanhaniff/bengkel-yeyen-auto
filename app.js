@@ -50,7 +50,8 @@ const business = {
     "Spooring & Balancing",
     "Tune Up Mesin",
     "Detailing",
-    "Ceramic Coating"
+    "Ceramic Coating",
+    "Jasa Tukar Tambah (Trade-In)"
   ],
 };
 
@@ -125,6 +126,7 @@ const WA_MESSAGES = {
   radiator: "Halo, saya ingin konsultasi mengenai servis / flushing radiator mobil saya.",
   spooring: "Halo, saya ingin konsultasi mengenai spooring dan balancing ban mobil saya.",
   tuneup: "Halo, saya ingin konsultasi mengenai tune up mesin mobil saya.",
+  tradein: "Halo, saya ingin konsultasi mengenai jasa tukar tambah (trade-in) mobil saya.",
   photo: "Halo, saya ingin kirim foto kondisi mobil saya untuk dicek dulu.",
   booking: "Halo, saya ingin membuat janji untuk datang ke bengkel.",
 };
